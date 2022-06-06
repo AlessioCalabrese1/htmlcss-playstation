@@ -1,0 +1,48 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+.sony{
+    background-color: black;
+    text-align: end;
+    padding: 5px;
+    height: 35px;
+}
+.sony img{
+    height: 70%;
+}
+
+.nav_change{
+    position: relative;
+    width: 100vw;
+}
+
+.dropdown a{
+    color: black;
+}
+
+.dropdown_change{
+    border: 0;
+    border-radius: 0;
+    background-color: white;
+    width: 100vw;
+}
+
+.position_unset{
+    position: unset;
+}
+
+.btn_change{
+    border-radius: 30px;
+    background-color: #363636;
+    border: 0;
+}
+
+.fa-magnifying-glass{
+    font-size: 25px;
+    line-height: 40px;
+    padding: 0 10px;
+}
