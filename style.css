@@ -35,6 +35,11 @@ header{
     position: unset;
 }
 
+.font-title{
+    font-size: 45px;
+    font-weight: 600;
+}
+
 .btn_change{
     border-radius: 30px;
     background-color: #363636;
@@ -45,4 +50,145 @@ header{
     font-size: 25px;
     line-height: 40px;
     padding: 0 10px;
+}
+
+#cover{
+    background-image: url("./img/jumbo-bg.png");
+    margin-top: 111px;
+    background-position: center;
+    height: 800px;
+    background-size: cover;
+}
+
+.bg_orange{
+    background-color: #cd3d0f;
+}
+
+.bg_blu{
+    background-color: #2d64e6;
+}
+
+.articles{
+    border-radius: 15px;
+}
+
+.no-limits{
+    color: #348fd8;
+    font-weight: bold;
+}
+
+.under-text{
+    font-size: 20px;
+    color: #757575;
+    font-weight: bold;
+}
+
+.retractable{
+    display: none;
+}
+
+#it-takes-two{
+    background-image: url("./img/it-takes-two-hero-banner-desktop.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.py-6{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.it-title{
+    font-size: 45px;
+    color: white;
+    font-weight: 600;
+}
+
+.it-undertext{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#new-releases{
+    background-color: #1f1f1f;
+}
+.new-releases-title{
+    font-size: 30px;
+    font-weight: 600;
+}
+.new-releases-undertext{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.articles-undertext{
+    font-weight: 600;
+    color: white;
+}
+
+#ps-plus{
+    background-color: #bebcbb;
+}
+.ps-plus-logo, .ps-now-logo{
+    width: 75%;
+}
+.plus_button{
+    background-color: #d9dadc;
+    color: #366ae6;
+}
+
+.fw_600{
+    font-weight: 600;
+}
+
+#ps-now{
+    background-color: #161c3b;
+}
+
+.now_button{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 575px){
+    .col_xs_2{
+        width: 45%;
+    }
+}
+
+@media all and (max-width: 767px){
+    .p-retractable{
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+}
+
+@media all and (min-width: 768px){
+    .retractable{
+        display: block;
+    }
+
+    .img_fluid_change{
+        width: 80%;
+    }
+
+    .it-title{
+        font-size: 35px;
+        color: white;
+    }
+
+    .it-undertext{
+        color: white;
+        font-size: 16px;
+    }
 }
