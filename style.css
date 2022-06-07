@@ -3,6 +3,7 @@ header{
     top: 0;
     left: 0;
     width: 100vw;
+    z-index: 10;
 }
 
 .sony{
@@ -174,9 +175,32 @@ footer a{
 }
 .end a{
     text-decoration: underline;
-    
+
 }
 
+.img_padding{
+    padding: 3px;
+    border: 2px solid #0072ce;
+}
+/* sezione hover */
+.articles_hover{
+    transition: top 0.5s;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.articles_hover:hover{
+    top: -15px;
+}
+
+.play_5_hover{
+    opacity: 0.5;
+}
+.play_5_hover:hover{
+    border-bottom: 2px solid #0072ce;
+    opacity: 1;
+}
 
 
 
