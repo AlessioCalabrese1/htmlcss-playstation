@@ -6,6 +6,10 @@ header{
     z-index: 10;
 }
 
+.reset_margin{
+    margin-top: 0!important;
+}
+
 .sony{
     background-color: black;
     text-align: end;
@@ -175,13 +179,29 @@ footer a{
 }
 .end a{
     text-decoration: underline;
-
 }
 
 .img_padding{
     padding: 3px;
     border: 2px solid #0072ce;
 }
+
+.under_menu a{
+    text-decoration: none;
+}
+.fa-circle{
+    color: #2d64e6;
+    font-size: 5px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
 /* sezione hover */
 .articles_hover{
     transition: top 0.5s;
@@ -200,6 +220,11 @@ footer a{
 .play_5_hover:hover{
     border-bottom: 2px solid #0072ce;
     opacity: 1;
+}
+
+.dropdown_menu_hover:hover{
+    box-shadow: 0 0 10px black;
+    transition: all 1s;
 }
 
 
